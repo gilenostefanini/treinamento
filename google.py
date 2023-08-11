@@ -1,3 +1,5 @@
 import requests
 
-print(requests.get("https://www.google.com").text)
+resposta = requests.get("https://www.google.com")
+
+print(resposta.text)
